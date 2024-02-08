@@ -1,0 +1,22 @@
+.navbar-brand {
+    margin-right: auto; 
+  }
+  
+  .navbar-toggler {
+    margin-left: auto; /* Push toggler to the right */
+  }
+  
+  .navbar-nav {
+    align-items: center; /* Vertically center navbar items */
+  }
+  
+  .nav-item {
+    margin-left: 20px; 
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      margin-top: 10px; 
+    }
+  }
+  

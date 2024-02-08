@@ -1,0 +1,28 @@
+<!-- <div style="background-image: url(./assets/a.avif);"> -->
+<div style="background-color:bisque;">
+<div class="ab" >
+<form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+    <h2 style="text-align: center; color: rgb(24, 11, 11);">Login</h2>
+    <label for="username" style="color: rgb(19, 6, 6);">Username:</label>
+    <input type="text" id="username" placeholder="Enter UserName..." name="username" [(ngModel)]="credentials.username"/>
+
+    <br>
+
+    <label for="password" name="password" style="color: rgb(15, 12, 12);">Password:</label>
+    <input type="password" id="password"  placeholder="Enter Password..." name="password" [(ngModel)]="credentials.password"/>
+
+    <br>
+
+    <button type="submit" [disabled]="!loginForm.valid">Login</button>
+    <div style="width: 100%; text-align: center; color: rgb(12, 6, 6);">If don't have an account?<p style="color:rgb(17, 9, 9)" type="button" routerLink="/register" >Register</p></div>
+
+  </form>
+</div>
+</div>
+  
+
+
+
+
+
+
